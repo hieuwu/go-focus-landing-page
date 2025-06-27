@@ -1,526 +1,223 @@
-<!doctype html>
-<html
-  style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;height: auto;min-height: 100vh;box-sizing: border-box !important;">
-
-<head style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-  <script
-    id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/86dada7b971f3854916c86403/71d64e0c0690a4ba010eb5313.js");</script>
-  <meta charset="UTF-8"
-    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
-    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-  <title style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Go Focus
-    - Improve your focus now
-  </title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <!--[if !mso]><!-->
-  <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700,700i" rel="stylesheet">
-  <!--<![endif]-->
-<!-- HTML Meta Tags -->
-<title>Go Focus, improve your focus ability now!</title>
-<meta name="description" content="Help you increase your focus period with offline first experience">
-
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://gofocus.app/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Go Focus, improve your focus ability now!">
-<meta property="og:description" content="Help you increase your focus period with offline first experience">
-<meta property="og:image" content="https://raw.githubusercontent.com/hieuwu/go-focus-landing-page/main/assets/images/screenshots/Screenshot%202024-05-11%20at%2009.41.48.png">
-
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="gofocus.app">
-<meta property="twitter:url" content="https://gofocus.app/">
-<meta name="twitter:title" content="Go Focus, improve your focus ability now!">
-<meta name="twitter:description" content="Help you increase your focus period with offline first experience">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/hieuwu/go-focus-landing-page/main/assets/images/screenshots/Screenshot%202024-05-11%20at%2009.41.48.png">
-
-  <link rel="icon"
-    href="https://mcusercontent.com/86dada7b971f3854916c86403/images/a5f14759-2816-3132-c295-671c2805f133.png"
-    type="image/png" sizes="16x16">
-  <link rel="icon"
-    href="https://mcusercontent.com/86dada7b971f3854916c86403/images/a5f14759-2816-3132-c295-671c2805f133.png"
-    type="image/png" sizes="32x32">
-  <link rel="icon"
-    href="https://mcusercontent.com/86dada7b971f3854916c86403/images/a5f14759-2816-3132-c295-671c2805f133.png"
-    type="image/png" sizes="192x192">
-  <link rel="icon"
-    href="https://mcusercontent.com/86dada7b971f3854916c86403/images/a5f14759-2816-3132-c295-671c2805f133.png"
-    type="image/png" sizes="512x512">
-
-
-  <link rel="apple-touch-icon"
-    href="https://s3.amazonaws.com/cdn-images.mailchimp.com/websites/favicons/default/apple-touch-icon.png"
-    sizes="180x180">
-  <link rel="icon"
-    href="https://s3.amazonaws.com/cdn-images.mailchimp.com/websites/favicons/default/android-chrome-192x192.png"
-    type="image/png" sizes="192x192">
-  <link rel="icon"
-    href="https://s3.amazonaws.com/cdn-images.mailchimp.com/websites/favicons/default/android-chrome-512x512.png"
-    type="image/png" sizes="512x512">
-  <link rel="stylesheet" type="text/css"
-    href="https://eep.io/mc-release/1.1.1e675ecdeee6a58e35f7d08ac845b40e807cf8741/css/signup-forms/pages/common.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kudos Snap - Professional Kudos Messaging</title>
+  <link rel="icon" type="image/png" href="https://qlqkhqfigjbgmkktubxs.supabase.co/storage/v1/object/public/profile-pictures/favicon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="Kudos Snap: Send, receive, and share professional kudos with AI-powered messaging. Join our beta today!">
+  <style>
+    /* Custom Kudos Snap orange color */
+    .bg-kudos-orange { background-color: #FF3D00; }
+    .text-kudos-orange { color: #FF3D00; }
+    .hover\:bg-kudos-orange-dark:hover { background-color: #E03500; }
+    .border-kudos-orange { border-color: #FF3D00; }
+    .focus\:border-kudos-orange:focus { border-color: #FF3D00; }
+    /* App icon styling */
+    .app-icon {
+      width: 100px;
+      height: auto;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    .background-decoration {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.1;
+      z-index: -1;
+      pointer-events: none;
+    }
+    /* Ensure content overlays background decoration */
+    .content-overlay {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
 </head>
+<body class="bg-gray-100 font-sans relative">
+  <!-- Background Decoration with App Icon -->
+  <img src="https://via.placeholder.com/150" alt="Kudos Snap App Icon" class="background-decoration" id="bg-icon">
 
-<body
-  style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;height: auto;width: 100%;position: relative;min-height: 100vh;box-sizing: border-box !important;margin: 0 !important;padding: 0 !important;">
-  <div class="wrapper"
-    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;height: auto;min-height: 100vh;display: flex;flex-direction: column;box-sizing: border-box !important;">
-    <div mc:template_section="Header" class="templateSection templateHeader" data-template-container
-      style="background:#662d91 none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;position: relative;display: flex;flex-shrink: 0;justify-content: center;padding-right: 0px;padding-left: 0px;background-color: #662d91;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 47px;padding-bottom: 47px;box-sizing: border-box !important;">
-      <div class="headerContainer contentContainer templateColumn"
-        style="background:#transparent none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: flex;flex-direction: column;max-width: 960px;width: 100%;flex: 0 0 auto;background-color: #transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;box-sizing: border-box !important;">
-        <div class="logoContainer"
-          style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-          <div width="100%" class="mcnTextBlock"
-            style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div class="mcnTextBlockInner"
-              style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
+  <!-- Hero Section with App Icon -->
+  <header class="bg-kudos-orange text-white py-16 text-center relative content-overlay">
+    <img src="https://via.placeholder.com/150" alt="Kudos Snap App Icon" class="app-icon" id="hero-icon">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Kudos Snap</h1>
+    <p class="text-xl mb-6">Celebrate your team with professional, AI-powered kudos messaging.</p>
+  </header>
 
-              <div
-                style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnTextContent"
-                  style="padding-top: 0;padding-right: 9px;padding-bottom: 9px;padding-left: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #FFFFFF;font-family: Nunito;font-size: 18px;line-height: 150%;text-align: left;box-sizing: border-box !important;">
-                  <div
-                    style="text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                    <span
-                      style="font-size: 48px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;"><strong
-                        style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;"><span
-                          style="font-family: comic sans ms,marker felt-thin,arial,sans-serif;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Go
-                          Focus</span></strong></span><br
-                      style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                    <br
-                      style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                    <strong
-                      style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;"><em
-                        style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">Subscribe
-                        to be the first person ever to try the product when it is launched!</em></strong>
-                  </div>
+  <!-- Beta Sign-Up Form -->
+  <section class="py-12 px-4 max-w-6xl mx-auto content-overlay">
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-bold mb-4 text-kudos-orange text-center">Join Our Beta!</h2>
+      <p class="text-lg mb-6 text-center">Be the first to send and receive kudos with Kudos Snap. Sign up now!</p>
+      <form id="beta-form" class="max-w-md mx-auto">
+        <input type="email" name="email" id="email-input" placeholder="Enter your email" required class="w-full px-4 py-2 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:border-kudos-orange">
+        <button id="signup-button" type="submit" class="bg-kudos-orange text-white px-6 py-2 rounded-lg font-semibold hover:bg-kudos-orange-dark w-full">Sign Up</button>
+      </form>
+      <p id="signup-message" class="text-center text-green-600 mt-4 hidden">Thank you for registering with Kudos Snap!</p>
+    </div>
+  </section>
 
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="mcnButtonBlock mcnButtonBlockInner"
-            style="display: flex;justify-content: center;padding-top: 0;padding-right: 18px;padding-bottom: 18px;padding-left: 18px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <a id="0" class="mcnButtonContentContainer mcnButton " title="Follow on  Twitter 🚀"
-                href="https://twitter.com/gofocusapp" target="_blank"
-                style="font-weight: bold;letter-spacing: 0px;line-height: 100%;text-align: center;text-decoration: none;border-radius: 30px;background-color: #2BAADF;box-shadow: none;padding: 18px;color: #FFFFFF;font-family: Arial;font-size: 16px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;box-sizing: border-box !important;">Follow
-                on Twitter 🚀</a>
-            </div>
-          </div>
-          <div class="mcnDividerBlock"
-            style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;table-layout: fixed !important;">
-            <div class="mcnDividerBlockInner"
-              style="padding: 90px 18px 0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div class="mcnDividerContent"
-                style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="columnContainer"
-          style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: flex;flex-direction: row;width: 100%;box-sizing: border-box !important;">
-          <div class="headerLeftColumnContainer column"
-            style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;flex: 1;box-sizing: border-box !important;">
-            <div width="100%" class="mcnTextBlock"
-              style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div class="mcnTextBlockInner"
-                style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-                <div
-                  style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                  <div class="mcnTextContent"
-                    style="padding-top: 0;padding-right: 9px;padding-bottom: 9px;padding-left: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #FFFFFF;font-family: Nunito;font-size: 18px;line-height: 150%;text-align: left;box-sizing: border-box !important;">
-                    <a id="header" name="header"
-                      style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;color: #FFFFFF;font-weight: normal;text-decoration: none;box-sizing: border-box !important;"></a>
-
-                    <h1
-                      style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #FFFFFF;font-family: Nunito;font-size: 48px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;box-sizing: border-box !important;">
-                      Help you increase your focus period with offline first experience</h1>
-
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="headerRightColumnContainer column"
-            style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;flex: 1;box-sizing: border-box !important;">
-            <div class="mcnSignUpBlockContentContainer"
-              style="display: flex;justify-content: flex-start;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div class="mcnSignUpFormContentContainer"
-                style="align-items: center;justify-content: center;padding-top: 18px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnTextContent" data-dojo-attach-point="formContentContainer"
-                  style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #FFFFFF;font-family: Nunito;font-size: 18px;line-height: 150%;text-align: left;box-sizing: border-box !important;">
-                  <!-- Form Fields -->
-                  <div class="content__formFields" data-dojo-attach-point="formFieldsContainer"
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                    <span
-                      style="font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                      <div data-dojo-type="mojo/pages-signup-forms/Loader"
-                        endpoint="https://mc.us17.list-manage.com/signup-form/settings?u=86dada7b971f3854916c86403&id=00ad53e0f0&for_preview=0">
-                      </div>
-                    </span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <!-- Why Kudos Snap Section -->
+  <section class="py-12 px-4 max-w-6xl mx-auto content-overlay">
+    <h2 class="text-3xl font-bold text-center mb-8 text-kudos-orange">Why Kudos Snap?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2 text-kudos-orange">Effortless Kudos</h3>
+        <p class="text-gray-600">Send and receive professional kudos messages, share them with your team, or save them privately for personal reflection.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2 text-kudos-orange">AI-Powered Messaging</h3>
+        <p class="text-gray-600">Focus on action, impact, and core values with AI-generated kudos that save time while delivering thoughtful, authentic praise.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2 text-kudos-orange">Simple & Secure</h3>
+        <p class="text-gray-600">Enjoy seamless authentication and profile management, designed for easy, secure use in professional settings.</p>
       </div>
     </div>
+  </section>
 
-
-    <div mc:template_section="Details" class="templateSection templateDetails" data-template-container
-      style="background:#9d6acc none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;position: relative;display: flex;flex-shrink: 0;justify-content: center;padding-right: 0px;padding-left: 0px;background-color: #9d6acc;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 73px;padding-bottom: 73px;box-sizing: border-box !important;">
-      <div class="detailsContainer contentContainer"
-        style="background:#transparent none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;max-width: 960px;width: 100%;flex: 0 0 auto;background-color: #transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;box-sizing: border-box !important;">
-        <div width="100%" class="mcnTextBlock"
-          style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-          <div class="mcnTextBlockInner"
-            style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-            <div
-              style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div class="mcnTextContent"
-                style="padding-top: 0;padding-right: 9px;padding-bottom: 9px;padding-left: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #FFFFFF;font-family: Nunito;font-size: 18px;line-height: 150%;text-align: center;box-sizing: border-box !important;">
-                <h1
-                  style="text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #FFFFFF;font-family: Nunito;font-size: 48px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;box-sizing: border-box !important;">
-                  The simplest way to improve focus ability</h1>
-
-                <p
-                  style="text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;color: #FFFFFF;font-family: Nunito;font-size: 18px;line-height: 150%;box-sizing: border-box !important;">
-                  With Go Focus, we're committed to providing you with the best application on mobile to improve your
-                  focus ability.</p>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="mcnDividerBlock"
-          style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;table-layout: fixed !important;">
-          <div class="mcnDividerBlockInner"
-            style="padding: 99px 18px 0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div class="mcnDividerContent"
-              style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            </div>
-          </div>
-        </div>
-        <div class="mcnCaptionBlock"
-          style="display: flex;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-          <div class="mcnCaptionBlockInner"
-            style="padding: 9px;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div class=""
-              style="display: flex;flex-direction: column;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnCaptionBottomImageContent"
-                  style="padding: 0 9px 9px 9px;justify-content: center;display: flex;flex: 1 1 100%;align-self: flex-start;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-
-
-                  <img alt="" src="https://eep.io/mc-cdn-images/template_images/gallery/lp-software-img-4.png"
-                    width="202"
-                    style="align-self: center;max-width: 100%;border-radius: 50%;box-shadow: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border: 0;height: auto;outline: none;text-decoration: none;vertical-align: bottom;box-sizing: border-box !important;"
-                    class="mcnImage">
-
-
-                </div>
-              </div>
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnTextContent"
-                  style="flex: 1 1 100%;padding: 0px 9px;font-size: 18px;text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #FFFFFF;font-family: Nunito;line-height: 150%;box-sizing: border-box !important;">
-                  <h5
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #FFFFFF;font-family: Nunito;font-size: 15px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;">
-                    01</h5>
-
-                  <h3
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #72DDC3;font-family: Nunito;font-size: 24px;font-style: normal;font-weight: bold;line-height: 200%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;">
-                    Offline first</h3>
-                  No internet connections? Still get your job done
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mcnCaptionBlockInner"
-            style="padding: 9px;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div class=""
-              style="display: flex;flex-direction: column;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnCaptionBottomImageContent"
-                  style="padding: 0 9px 9px 9px;justify-content: center;display: flex;flex: 1 1 100%;align-self: flex-start;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-
-
-                  <img alt="" src="https://eep.io/mc-cdn-images/template_images/gallery/lp-software-img-5.png"
-                    width="202"
-                    style="align-self: center;max-width: 100%;border-radius: 50%;box-shadow: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border: 0;height: auto;outline: none;text-decoration: none;vertical-align: bottom;box-sizing: border-box !important;"
-                    class="mcnImage">
-
-
-                </div>
-              </div>
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnTextContent"
-                  style="flex: 1 1 100%;padding: 0px 9px;font-size: 18px;text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #FFFFFF;font-family: Nunito;line-height: 150%;box-sizing: border-box !important;">
-                  <h5
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #FFFFFF;font-family: Nunito;font-size: 15px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;">
-                    02</h5>
-
-                  <h3
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #72DDC3;font-family: Nunito;font-size: 24px;font-style: normal;font-weight: bold;line-height: 200%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;">
-                    Simplicity</h3>
-                  Start your focus timer period just with one click
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mcnCaptionBlockInner"
-            style="padding: 9px;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div class=""
-              style="display: flex;flex-direction: column;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnCaptionBottomImageContent"
-                  style="padding: 0 9px 9px 9px;justify-content: center;display: flex;flex: 1 1 100%;align-self: flex-start;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-
-                  <img alt="" src="https://eep.io/mc-cdn-images/template_images/gallery/lp-software-img-6.png"
-                    width="202"
-                    style="align-self: center;max-width: 100%;border-radius: 50%;box-shadow: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border: 0;height: auto;outline: none;text-decoration: none;vertical-align: bottom;box-sizing: border-box !important;"
-                    class="mcnImage">
-
-
-                </div>
-              </div>
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnTextContent"
-                  style="flex: 1 1 100%;padding: 0px 9px;font-size: 18px;text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #FFFFFF;font-family: Nunito;line-height: 150%;box-sizing: border-box !important;">
-                  <h5
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #FFFFFF;font-family: Nunito;font-size: 15px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;">
-                    03</h5>
-
-                  <h3
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #72DDC3;font-family: Nunito;font-size: 24px;font-style: normal;font-weight: bold;line-height: 200%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;">
-                    Insights</h3>
-                  Provide key metrics to help track your focus ability
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+  <!-- Kudos in Action Section -->
+  <section class="py-12 px-4 max-w-6xl mx-auto content-overlay">
+    <h2 class="text-3xl font-bold text-center mb-8 text-kudos-orange">Kudos in Action</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2 text-kudos-orange">Kudos Message</h3>
+        <p class="text-gray-600">"Kudos to Peter for the hotfix to Prod today. This unblocked our release and truly demonstrated your cooperative spirit, resourceful problem solving, and proactive initiative. Really well done and much appreciated."</p>
       </div>
-
-    </div>
-    <div mc:template_section="Details" class="templateSection templateDetails" data-template-container
-      style="background:#ffffff none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;position: relative;display: flex;flex-shrink: 0;justify-content: center;padding-right: 0px;padding-left: 0px;background-color: #ffffff;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 73px;padding-bottom: 73px;box-sizing: border-box !important;">
-      <div class="detailsContainer contentContainer"
-        style="background:#transparent none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;max-width: 960px;width: 100%;flex: 0 0 auto;background-color: #transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;box-sizing: border-box !important;">
-        <div width="100%" class="mcnTextBlock"
-          style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-          <div class="mcnTextBlockInner"
-            style="display: flex;padding: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-            <div
-              style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div class="mcnTextContent"
-                style="padding-top: 0;padding-right: 9px;padding-bottom: 9px;padding-left: 9px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #FFFFFF;font-family: Nunito;font-size: 18px;line-height: 150%;text-align: center;box-sizing: border-box !important;">
-                <h1
-                  style="text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #000000;font-family: Nunito;font-size: 48px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;box-sizing: border-box !important;">
-                  Features</h1>
-                <p
-                  style="text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;margin: 10px 0;padding: 0;color: #000000;font-family: Nunito;font-size: 18px;line-height: 150%;box-sizing: border-box !important;">
-                  Our powerful features that maximize your usage experience and get the job done</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="mcnDividerBlock"
-          style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;table-layout: fixed !important;">
-          <div class="mcnDividerBlockInner"
-            style="padding: 99px 18px 0px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div class="mcnDividerContent"
-              style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            </div>
-          </div>
-        </div>
-        <div class="mcnCaptionBlock"
-          style="display: flex;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-          <div class="mcnCaptionBlockInner"
-            style="padding: 9px;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div class=""
-              style="display: flex;flex-direction: column;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnCaptionBottomImageContent"
-                  style="padding: 0 9px 9px 9px;justify-content: center;display: flex;flex: 1 1 100%;align-self: flex-start;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                  <img alt="" src="./assets/images/screenshots/timer.png" width="320"
-                    style="align-self: center;max-width: 100%;box-shadow: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border: 0;height: auto;outline: none;text-decoration: none;vertical-align: bottom;box-sizing: border-box !important;"
-                    class="mcnImage">
-
-                </div>
-              </div>
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnTextContent"
-                  style="flex: 1 1 100%;padding: 0px 9px;font-size: 18px;text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #000000;font-family: Nunito;line-height: 150%;box-sizing: border-box !important;">
-
-                  <h3
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #9d6acc;font-family: Nunito;font-size: 24px;font-style: normal;font-weight: bold;line-height: 200%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;">
-                    Timer</h3>
-                  Countdown timer based on your own settings
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mcnCaptionBlockInner"
-            style="padding: 9px;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div class=""
-              style="display: flex;flex-direction: column;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnCaptionBottomImageContent"
-                  style="padding: 0 9px 9px 9px;justify-content: center;display: flex;flex: 1 1 100%;align-self: flex-start;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-                  <img alt="" src="./assets/images/screenshots/settings.png" width="320"
-                    style="align-self: center;max-width: 100%;box-shadow: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border: 0;height: auto;outline: none;text-decoration: none;vertical-align: bottom;box-sizing: border-box !important;"
-                    class="mcnImage">
-
-                </div>
-              </div>
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnTextContent"
-                  style="flex: 1 1 100%;padding: 0px 9px;font-size: 18px;text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #000000;font-family: Nunito;line-height: 150%;box-sizing: border-box !important;">
-                  <h3
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #9d6acc;font-family: Nunito;font-size: 24px;font-style: normal;font-weight: bold;line-height: 200%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;">
-                    Settings</h3>
-                  Customise your timer period, notifications
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mcnCaptionBlockInner"
-            style="padding: 9px;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-            <div class=""
-              style="display: flex;flex-direction: column;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnCaptionBottomImageContent"
-                  style="padding: 0 9px 9px 9px;justify-content: center;display: flex;flex: 1 1 100%;align-self: flex-start;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-
-                  <img alt="" src="./assets/images/screenshots/report.png" width="320"
-                    style="align-self: center;max-width: 100%;box-shadow: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border: 0;height: auto;outline: none;text-decoration: none;vertical-align: bottom;box-sizing: border-box !important;"
-                    class="mcnImage">
-
-
-                </div>
-              </div>
-              <div
-                style="display: flex;flex: 0 0 auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box !important;">
-                <div class="mcnTextContent"
-                  style="flex: 1 1 100%;padding: 0px 9px;font-size: 18px;text-align: center;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;word-break: break-word;flex-flow: column;color: #000000;font-family: Nunito;line-height: 150%;box-sizing: border-box !important;">
-                  <h3
-                    style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: block;margin: 0;padding: 0;color: #9d6acc;font-family: Nunito;font-size: 24px;font-style: normal;font-weight: bold;line-height: 200%;letter-spacing: normal;text-align: center;box-sizing: border-box !important;">
-                    Reports</h3>
-                  Visualise and analyse your focus ability as time passes
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2 text-kudos-orange">Kudos Message</h3>
+        <p class="text-gray-600">"Hi Jack, just wanted to send some kudos your way. Your quick resolution of the recent INC, getting it done within SLA, was fantastic. That really highlighted your resourceful problem-solving. This kind of timely action is empowering for our users, ensuring their work isn't interrupted. It also speaks to an inclusive approach, making sure everyone has what they need to succeed. Great work all around."</p>
       </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2 text-kudos-orange">Kudos Message</h3>
+        <p class="text-gray-600">"Fantastic work, Peter, on deploying the service two days early! That demonstrates incredible resourcefulness and smart thinking. Your clear communication throughout the process was incredibly inclusive, ensuring everyone was aligned. This proactive approach truly empowers the rest of the team to move forward quickly. Great job."</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold mb-2 text-kudos-orange">Kudos Message</h3>
+        <p class="text-gray-600">"Hey Peter, Fantastic initiative proactively reducing our app size from 32MB to 25MB! This clearly demonstrates your creative approach to optimization. By removing unused resources, you've made a genuinely supportive contribution that benefits our users with a faster, lighter experience. Your work empowers the whole team with a more efficient and performant application. Great job!"</p>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center content-overlay">
+    <p class="mb-2">© 2025 Kudos Snap. All rights reserved.</p>
+    <div class="flex justify-center space-x-4">
+      <a href="https://linkedin.com" target="_blank" class="hover:text-kudos-orange">LinkedIn</a>
+      <a href="https://x.com" target="_blank" class="hover:text-kudos-orange">X</a>
+      <a href="/privacy" class="hover:text-kudos-orange">Privacy Policy</a>
     </div>
-    <div class="templateSection templateFooter"
-      style="background:#ffffff none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;position: relative;display: flex;flex-shrink: 0;justify-content: center;padding-right: 0px;padding-left: 0px;background-color: #ffffff;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0px;padding-bottom: 0px;box-sizing: border-box !important;">
-      <!-- <div class="columnContainer contentContainer"
-        style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;display: flex;flex-direction: row;width: 100%;max-width: 960px;flex: 0 0 auto;box-sizing: border-box !important;">
-        <div class="footerLeftColumnContainer column"
-          style="background:#transparent none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;flex: 1;background-color: #transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;box-sizing: border-box !important;">
-        </div>
-        <div class="footerRightColumnContainer column"
-          style="background:#transparent none no-repeat center/cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;flex: 1;background-color: #transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;box-sizing: border-box !important;">
-        </div>
-      </div> -->
-    </div>
-      <!-- Site footer -->
-      <footer class="site-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <h6>About</h6>
-              <p class="text-justify"> Our app is meticulously crafted to empower individuals at every stage of life to enhance their concentration abilities. gofocus provides a comprehensive suite of tools. From customizable focus sessions that adapt to your needs, to mindfulness exercises that promote mental clarity, and intuitive productivity tracking features, gofocus equips you with everything you need to achieve peak focus and accomplish your goals efficiently.</p>
-            </div>
-  
-            <div class="col-xs-6 col-md-3">
-            </div>
-  
-            <div class="col-xs-6 col-md-3">
-              <img src="./assets/images/gofocus_light.svg" width="222" loading="lazy">
-            </div>
-          </div>
-          <hr>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-              <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by 
-           <a class="copyright-text" href="https://x.com/hieuwu99">Hieu Vu</a>.
-              </p>
-            </div>
-  
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <ul class="social-icons">
-                <li><a class="twitter" href="https://x.com/gofocusapp"><i class="fa fa-twitter"></i></a></li>
-                <li><a class="linkedin" href="https://www.linkedin.com/company/go-focus/"><i class="fa fa-linkedin"></i></a></li> 
-              </ul>
-            </div>
-          </div>
-        </div>
   </footer>
-  </div>
-  <!-- <div data-dojo-type="mojo/widgets/pages/PrivacyBadge"
-    data-dojo-props="uniqueId: &quot;86dada7b971f3854916c86403&quot;, isLive: true, settings: {&quot;isWebsitePage&quot;:false,&quot;enabled&quot;:true,&quot;pageId&quot;:44766,&quot;theme&quot;:&quot;light&quot;}">
-  </div>
-  <div data-dojo-type="mojo/widgets/pages/PaymentGalleryImages"></div>
-  <div data-dojo-type="mojo/widgets/pages/ClickTracker"
-    data-dojo-props="endpoint: &quot;//mc.us17.list-manage.com/pages/track/url-clicked?u=86dada7b971f3854916c86403&id=03000d6ce1f0&quot;">
-  </div> -->
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript"
-    src="https://eep.io/mc-release/1.1.1e675ecdeee6a58e35f7d08ac845b40e807cf8741/js-legacy/js/dojo/dojo.js"
-    data-dojo-config="parseOnLoad: true, usePlainJson: true, isDebug: false"></script>
-  <script type="text/javascript"
-    src="https://eep.io/mc-release/1.1.1e675ecdeee6a58e35f7d08ac845b40e807cf8741/js-legacy/js/mojo/mclandingpage.js"></script>
-  <script type="text/javascript"
-    src="//mc.us17.list-manage.com/pages/track/open?u=86dada7b971f3854916c86403&id=03000d6ce1f0" async></script>
-</body>
 
+  <!-- Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script type="text/javascript">
+    var gk_isXlsx = false;
+    var gk_xlsxFileLookup = {};
+    var gk_fileData = {};
+    function filledCell(cell) {
+      return cell !== '' && cell != null;
+    }
+    function loadFileData(filename) {
+      if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+        try {
+          var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+          var firstSheetName = workbook.SheetNames[0];
+          var worksheet = workbook.Sheets[firstSheetName];
+
+          // Convert sheet to JSON to filter blank rows
+          var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+          // Filter out blank rows (rows where all cells are empty, null, or undefined)
+          var filteredData = jsonData.filter(row => row.some(filledCell));
+
+          // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+          var headerRowIndex = filteredData.findIndex((row, index) =>
+            row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+          );
+          // Fallback
+          if (headerRowIndex === -1 || headerRowIndex > 25) {
+            headerRowIndex = 0;
+          }
+
+          // Convert filtered JSON back to CSV
+          var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+          csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+          return csv;
+        } catch (e) {
+          console.error(e);
+          return "";
+        }
+      }
+      return gk_fileData[filename] || "";
+    }
+
+    // Confetti on page load
+    window.addEventListener('load', () => {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 },
+        colors: ['#FF3D00', '#FFFF00', '#FFFFFF']
+      });
+    });
+
+    // Email validation and sign-up handling
+    document.getElementById('signup-button').addEventListener('click', (e) => {
+      e.preventDefault(); // Prevent default form submission
+      const emailInput = document.getElementById('email-input');
+      const email = emailInput.value;
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Basic email format validation
+      const signupMessage = document.getElementById('signup-message');
+
+      if (emailInput.value.trim() === '') {
+        return;
+      }
+
+      if (emailRegex.test(email)) {
+        // Send to Google Analytics as an event
+        gtag('event', 'beta_signup', {
+          'event_category': 'engagement',
+          'event_label': 'beta_signup',
+          'value': email
+        });
+
+        // Trigger confetti for success
+        confetti({
+          particleCount: 150,
+          spread: 100,
+          origin: { y: 0.4 },
+          colors: ['#FF3D00', '#FFFF00', '#FFFFFF']
+        });
+
+        // Show thank you message
+        signupMessage.classList.remove('hidden');
+        emailInput.value = ''; // Clear the input field
+      } // If invalid, browser's required attribute will prompt the user
+    });
+
+    // Dynamically update app icon URLs (replace placeholders with your uploaded image URL)
+    document.getElementById('hero-icon').src = 'https://qlqkhqfigjbgmkktubxs.supabase.co/storage/v1/object/public/profile-pictures//ic_launcher-playstore.png'; // Replace with your app icon URL
+    document.getElementById('bg-icon').src = 'https://qlqkhqfigjbgmkktubxs.supabase.co/storage/v1/object/public/profile-pictures//ic_launcher-playstore.png'; // Replace with your app icon URL
+
+    // Google Analytics (Optional)
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXX-Y');
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY4LKRJ8K5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XY4LKRJ8K5');
+  </script>
+</body>
 </html>
